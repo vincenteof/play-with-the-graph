@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "SimpleToken": {
+      "address": "0xF4B4fCFC32BE102D0065D0E5F5cE891A49c5DfE8",
+      "startBlock": 0
+    }
+  }
+}

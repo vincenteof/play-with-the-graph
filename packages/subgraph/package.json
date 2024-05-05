@@ -1,5 +1,5 @@
 {
-  "name": "playwiththegraph",
+  "name": "play-with-the-graph-subgraph",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",

@@ -4,7 +4,7 @@
   "scripts": {
     "test": "hardhat test"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2"
   },

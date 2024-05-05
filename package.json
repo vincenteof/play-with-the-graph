@@ -1,0 +1,9 @@
+{
+  "name": "play-with-the-graph",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "pnpm -r run test"
+  },
+  "license": "MIT"
+}

@@ -8,7 +8,7 @@ dataSources:
     name: SimpleToken
     network: mainnet
     source:
-      address: "0xF4B4fCFC32BE102D0065D0E5F5cE891A49c5DfE8"
+      address: "0x5FbDB2315678afecb367f032d93F642f64180aa3"
       abi: SimpleToken
       startBlock: 0
     mapping:

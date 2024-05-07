@@ -2,7 +2,9 @@
   "name": "play-with-the-graph-core",
   "version": "0.0.1",
   "scripts": {
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy-local": "hardhat ignition deploy ./ignition/modules/SimpleToken.ts --network localhost"
   },
   "license": "MIT",
   "dependencies": {

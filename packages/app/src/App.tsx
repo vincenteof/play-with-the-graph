@@ -1,8 +1,11 @@
-import { useQuery, gql } from '@apollo/client'
+import { useQuery } from '@apollo/client'
 import './App.css'
 
+import { gql } from '../src/__generated__/gql'
+
 function App() {
-  const { loading, data } = useQuery(gql`
+  const { loading, data } = useQuery(
+    gql(/* Graphql */ `
     query GetTransfers {
       transfers {
         id
@@ -15,6 +18,7 @@ function App() {
       }
     }
   `)
+  )
   return (
     <>
       <h2>My first Apollo app 😤</h2>
